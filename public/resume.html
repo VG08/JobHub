@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./dist/output.css" rel="stylesheet">
+
+</head>
+
+<body class="h-full bg-gray-900">
+    <section class="text-gray-200 body-font relative w-3/4 mx-auto px-12">
+        <div class="flex flex-col text-center w-full mb-12">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-200">Contact Us</h1>
+          </div>
+        <form method="GET" action="preview.html">
+            <div class="grid gap-6 mb-6 lg:grid-cols-2">
+                <div>
+                    <label for="first_name" class="block mb-2 text-sm font-medium  text-gray-300">First name</label>
+                    <input name="first_name" required type="text" id="first_name"
+                        class="bg-gray-900 border border-gray-300  text-sm rounded-lg      focus:border-blue-500 block w-full p-2.5       border-gray-600  placeholder-gray-400  text-white        focus:border-blue-500"
+                        placeholder="John" required>
+                </div>
+                <div>
+                    <label for="last_name" class="block mb-2 text-sm font-medium  text-gray-300">Last name</label>
+                    <input name="last_name" required type="text" id="last_name"
+                        class="bg-gray-900 border border-gray-300    text-sm rounded-lg      focus:border-blue-500 block w-full p-2.5       border-gray-600  placeholder-gray-400  text-white        focus:border-blue-500"
+                        placeholder="Doe" required>
+                </div>
+                <div>
+                    <label for="email" class="block mb-2 text-sm font-medium  text-gray-300">Email</label>
+                    <input name="email" required type="email" id="email"
+                        class="bg-gray-900 border border-gray-300    text-sm rounded-lg      focus:border-blue-500 block w-full p-2.5       border-gray-600  placeholder-gray-400  text-white        focus:border-blue-500"
+                        placeholder="sv@gmail.com" required>
+                </div>
+                <div>
+                    <label for="phone" class="block mb-2 text-sm font-medium  text-gray-300">Phone number</label>
+                    <input name="phone" required type="tel" id="phone"
+                        class="bg-gray-900 border border-gray-300    text-sm rounded-lg      focus:border-blue-500 block w-full p-2.5       border-gray-600  placeholder-gray-400  text-white        focus:border-blue-500"
+                        placeholder="1234567891" required>
+                </div>
+
+            </div>
+            <div class="mb-6">
+                <label for="education" class="block mb-2 text-sm font-medium  text-gray-300">Education</label>
+                <input name="education" required type="text" id="education"
+                    class="bg-gray-900 border border-gray-300    text-sm rounded-lg      focus:border-blue-500 block w-full p-2.5       border-gray-600  placeholder-gray-400  text-white        focus:border-blue-500"
+                    placeholder="College of joe" required>
+            </div>
+            <div class="mb-6">
+                <label for="degree" class="block mb-2 text-sm font-medium  text-gray-300">Degree</label>
+                <input name="education" required type="text" id="degree"
+                    class="bg-gray-900 border border-gray-300    text-sm rounded-lg      focus:border-blue-500 block w-full p-2.5       border-gray-600  placeholder-gray-400  text-white        focus:border-blue-500"
+                    placeholder="Masters in Sciences" required>
+            </div>
+            <div class="p-2 w-full">
+                <div class="relative">
+                    <label for="about" class="leading-7 text-sm text-gray-200">About you?</label>
+                    <textarea id="about" name="about"
+                        class="w-full bg-gray-800 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                </div>
+            </div>
+            <div class="p-2 w-full">
+                <div class="relative">
+                    <label for="skill" class="leading-7 text-sm text-gray-200">List your skills</label>
+                    <textarea id="skill" name="skill"
+                        class="w-full bg-gray-800 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                </div>
+            </div>
+            <div class="p-2 w-full">
+                <div class="relative">
+                    <label for="message" class="leading-7 text-sm text-gray-200">List your experiences?</label>
+                    <textarea id="message" name="message"
+                        class="w-full bg-gray-800 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                </div>
+            </div>
+      
+            <button type="submit" id="sub"
+                class="text-white mx-auto bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center  bg-blue-600  hover:bg-blue-700  focus:ring-blue-800">Submit</button>
+        </form>
+    </section>
+
+</body>
+<script>
+    document.getElementById("sub").addEventListener("click", cl)
+    function cl() {
+        console.log("here")
+    }
+</script>
+
+</html>

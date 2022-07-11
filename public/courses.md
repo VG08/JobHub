@@ -1,0 +1,6 @@
+ - data analysis https://www.coursera.org/professional-certificates/google-data-analytics
+ - digital marketing https://www.coursera.org/professional-certificates/google-digital-marketing-ecommerce
+ - graphic designing https://www.coursera.org/specializations/graphic-design
+ - dabba services
+ - blockchain
+ -       https://www.coursera.org/specializations/python?
